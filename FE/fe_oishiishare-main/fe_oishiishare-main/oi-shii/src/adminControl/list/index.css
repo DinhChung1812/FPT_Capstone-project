@@ -1,0 +1,65 @@
+.contain-recipe {
+  margin: "20px";
+}
+
+.table-th {
+  text-align: "center";
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 90%;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  align-content: center;
+}
+
+.styled-table thead tr {
+  background-color: black;
+  color: deepskyblue;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 6px 12px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid white;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.btn {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: yellow;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.btn-view {
+  background-color: rgb(31, 243, 31);
+}

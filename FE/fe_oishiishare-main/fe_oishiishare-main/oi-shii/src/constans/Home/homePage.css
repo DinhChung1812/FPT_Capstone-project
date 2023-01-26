@@ -1,0 +1,31 @@
+.img{
+    height: 500px;
+}
+.view-search {
+    /* flex-direction: none !important; */
+    /* justify-content: none !important; */
+    /* display: inline-block !important; */
+  }
+  .input-search{
+    margin: 10px;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #d3dfd6;
+
+  }
+  .btn-search {
+    border-radius: 5px ;
+    border: 1px solid #09f143;
+    height: 50px;
+    justify-content: center;
+    padding: 11px 10px;
+    font-size: 20px;
+    background: #caebd2;
+    
+  }
+  .btn-search :hover{
+    background: aqua;
+  }

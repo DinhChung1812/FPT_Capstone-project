@@ -1,0 +1,32 @@
+
+.text-back {
+    text-decoration: none;
+    
+}
+.bgr-fotgot-left{
+    float: left;
+    background-image: url(../../img/img4.jpg);
+    height: 500px;
+    width: 50%;
+}
+.bgr-fotgot-right{
+    float: right;
+    background-color: rgb(190, 190, 190);
+    height: 500px;
+    width: 50%;
+    padding-top: 2%;
+}
+.sucmsg {
+    color: rgb(14, 8, 8);
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    text-align: center;
+ 
+  }
+
+
+
+
+

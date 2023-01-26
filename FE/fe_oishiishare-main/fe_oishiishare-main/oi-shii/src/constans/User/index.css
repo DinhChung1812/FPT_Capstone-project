@@ -1,0 +1,31 @@
+.body-profile{
+    margin-top: 50px !important;
+}
+.form{
+    padding: 20px 20px !important;
+    width: 90% !important;
+    display: inline-block !important;
+}
+.btn-profile{
+    margin-top: 15px;
+    width: 50%;
+    justify-content: center;
+}
+.profileImage{
+    width: 50% !important;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+.body-profile{
+    /* background-image: url(./../../img/im5.jpg); */
+    padding: 20px 20px;
+    margin: 0px 0% !important;
+}
+.text-title{
+    text-align: center;
+}
+.txt-profile{
+    padding: 8px;
+    font-size: 20px;
+}

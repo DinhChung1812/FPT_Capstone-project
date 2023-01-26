@@ -1,0 +1,67 @@
+@import '~antd/dist/antd.css';
+.comment-action {
+    padding-left: 8px;
+    cursor: 'auto';
+  }
+  
+  [class*='-col-rtl'] .comment-action {
+    padding-right: 8px;
+    padding-left: 0;
+  }
+
+.icon-like {
+  display: none;
+}
+.icon-like.active {
+  display: block;
+}
+.icon-dislike {
+  display: none;
+}
+
+.icon-dislike.active {
+  display: block;
+}
+.styles-icon{
+  float: right;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: #eee;
+  border-color: #eee;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #ffe400;
+  color: #101010;
+}
+.page-cmt{
+  text-align: center;
+}
+.actions-hover{
+  display: none;
+}
+.my-comment:hover .actions-hover{
+  display: inline-block;
+  float: right;
+}

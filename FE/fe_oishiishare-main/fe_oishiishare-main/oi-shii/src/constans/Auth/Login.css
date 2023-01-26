@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contai-login{
+  text-align: center;
+  justify-content: center;
+
+  margin: 20px 60px;
+
+}
+.background {
+  height: 900px;
+  display: block;
+}
+.login-background {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.login {
+  font-size: 60px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.form-group {
+  position: relative;
+  width: 50%;
+}
+.form-group input {
+  padding: 5px 40px 5px 20px;
+  font-size: 20px;
+  width: 400px !important;
+  margin-left: 100px !important;
+  display: block;
+  margin: 10px 0px;
+}
+
+.btnLogin {
+
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  width: 50%;
+  margin-top: 40px;
+  outline: none;
+  border-radius: 5px;
+  justify-content: center;
+}
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+.label {
+  float: left;
+  margin-left: 30px;
+}
+.txt {
+  margin-top: 15px;
+}
+.txt-right {
+  width: 200px;
+  float: right;
+}
+.txt-left {
+  width: 200px;
+  float: left;
+}
+
+.right-login {
+  float: right;
+  height: 700px;
+  padding: 20px;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: block;
+  background: #dbd0d0;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+  background-image: url(../../img/img4.jpg);
+  
+}
+.img {
+  width: 100%;
+  border: 16px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+.imgEye {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: -230px !important;
+  top: 58px;
+}

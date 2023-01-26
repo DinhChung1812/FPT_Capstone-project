@@ -1,0 +1,99 @@
+.container-list {
+  display: flex;
+}
+
+.left-view {
+  float: left;
+  width: 30%;
+  margin-top: 2%;
+  /* background-color: blanchedalmond; */
+}
+
+.right-view {
+  float: right;
+  width: 70%;
+  /* background-color: aquamarine; */
+}
+.img-view-detail {
+  width: 90%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.img-view-show {
+  float: left;
+  width: 30%;
+  margin: 10px 5px;
+  margin-top: 2%;
+  object-fit: cover;
+  flex-shrink: 0; 
+
+}
+.h1-text {
+  text-align: left;
+  margin-left: 10%;
+}
+.text-view {
+  display: table;
+  margin-left: 5%;
+  font-size: 18px;
+}
+.view-comment {
+  padding-top: 2%;
+
+  /* background-color: bisque; */
+}
+.view-ingredien {
+  display: table;
+  margin-left: 10%;
+  font-size: 20px;
+}
+.view-title {
+  display: table;
+  margin-left: 5%;
+}
+.view-video {
+  background-color: aqua;
+  width: 60%;
+  height: 53%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.view-top {
+  -webkit-line-clamp: 1; /* Số dòng bạn muốn giới hạn */
+  -webkit-box-orient: vertical;
+  visibility: visible;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.view-list-cmt {
+  padding: 18px;
+  border-radius: 14px;
+  width: 80%;
+  margin-bottom: 15px;
+  display: grid;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #eef3f0;
+}
+.txt-cmt{
+  padding-top: 10px;
+  font-size: 12px;
+  margin-left: 77%;
+}
+.cmt{
+    /* margin-left: 30%; */
+    margin-right: 88%;
+}
+.txt-p{
+font-size: 20px;
+}
+.menu-cmt{
+  float: right;
+  width: 10%;
+  font-size: 28px;
+
+
+}
